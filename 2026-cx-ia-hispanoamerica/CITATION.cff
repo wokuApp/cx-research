@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Si cita este trabajo, indique que es un manuscrito preliminar, versión 2, previo a datos y análisis."
+type: software
+title: "Adopción de inteligencia artificial en la gestión de la experiencia del cliente en Hispanoamérica"
+authors:
+  - family-names: Orrego
+    given-names: Diego
+    affiliation: woku
+  - family-names: Riquelme
+    given-names: Paula
+    affiliation: woku
+version: "2"
+date-released: 2026-11-14
+url: "https://github.com/wokuApp/cx-research/tree/main/2026-cx-ia-hispanoamerica"
+repository-code: "https://github.com/wokuApp/cx-research"
+keywords:
+  - experiencia del cliente
+  - inteligencia artificial
+  - Hispanoamérica
+  - adopción empresarial
+preferred-citation:
+  type: report
+  title: "Adopción de inteligencia artificial en la gestión de la experiencia del cliente en Hispanoamérica"
+  authors:
+    - family-names: Orrego
+      given-names: Diego
+      affiliation: woku
+    - family-names: Riquelme
+      given-names: Paula
+      affiliation: woku
+  year: 2026
+  version: "2"
+  publisher:
+    name: woku
+  url: "https://research.woku.app/?documento=manuscrito"

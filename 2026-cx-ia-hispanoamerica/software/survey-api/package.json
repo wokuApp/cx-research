@@ -1,0 +1,38 @@
+{
+  "name": "@woku-research/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --exclude 'test/*.integration.test.ts'",
+    "test:integration": "node scripts/test-postgres.mjs",
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "synth": "npm run build && cdk synth --quiet",
+    "diff": "npm run build && cdk diff",
+    "deploy": "npm run build && cdk deploy woku-research --exclusively --require-approval broadening",
+    "dev": "tsx src/local.ts",
+    "predeploy": "node scripts/preflight.mjs",
+    "publish:front": "node scripts/publish-front.mjs",
+    "deploy:web": "npm run build && cdk deploy woku-research-web --exclusively --require-approval broadening",
+    "predeploy:web": "node scripts/verify-account.mjs"
+  },
+  "dependencies": {
+    "@woku-research/contracts": "0.6.0",
+    "@aws-sdk/client-secrets-manager": "3.1169.0",
+    "@aws-sdk/client-sesv2": "3.1169.0",
+    "pg": "8.23.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.159",
+    "@types/node": "24.10.1",
+    "@types/pg": "^8.15.6",
+    "aws-cdk": "2.1148.1",
+    "aws-cdk-lib": "2.277.0",
+    "constructs": "^10.4.2",
+    "esbuild": "0.28.2",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "vitest": "4.1.12"
+  }
+}

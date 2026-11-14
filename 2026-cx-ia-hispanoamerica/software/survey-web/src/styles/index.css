@@ -1,0 +1,74 @@
+@import '@fontsource-variable/montserrat';
+@import 'tailwindcss';
+@theme {
+  --font-sans: 'Montserrat Variable', 'Montserrat', sans-serif;
+  --color-indigo-800: #372aac;
+  --color-indigo-700: #432dd7;
+  --color-indigo-600: #4f46e5;
+  --color-indigo-400: #7c86ff;
+  --color-indigo-100: #e0e7ff;
+  --color-indigo-50: #eef2ff;
+  --color-neutral-900: #171717;
+  --color-neutral-700: #404040;
+  --color-neutral-600: #525252;
+  --color-neutral-500: #737373;
+  --color-neutral-400: #a1a1a1;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-50: #fafafa;
+  --color-red-700: #c10007;
+}
+:root { font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+body { margin: 0; min-width: 320px; }
+::selection { background: #e0e7ff; color: #171717; }
+input { caret-color: #432dd7; }
+input::placeholder { color: #737373 !important; }
+.survey-page { padding-top: 66px; }
+.viewport-progress { margin: 0; padding: 0; }
+.progress-full-bleed > div { height: 6px; border: 0; border-radius: 0; background: #e0e7ff; }
+.progress-full-bleed > div > div { border-radius: 0; }
+.progress-details { height: 36px; padding: 0 24px; }
+.survey-header { height: 76px; }
+.survey-card { width: 100%; max-width: 48rem; height: clamp(24rem, calc(100dvh - 13.5rem), 42rem); box-shadow: 0 20px 60px -20px rgba(35,28,94,.25); }
+.survey-scroll { padding: 40px 48px 8px; scrollbar-width: thin; scrollbar-color: #c7c4d9 transparent; scrollbar-gutter: stable; }
+.step-title { font-size: 1.75rem; line-height: 1.35; }
+.survey-card-footer { padding: 8px 48px 28px; }
+.error-slot { min-height: 28px; padding-bottom: 8px; }
+.preview-footnote { position: fixed; left: 16px; bottom: 12px; max-width: calc(100vw - 174px); padding: 0; text-align: left; font-size: 11px; line-height: 16px; }
+.choice-row { min-height: 48px; align-items: center; gap: 12px; padding: 12px; border-radius: 8px; transition: background-color 150ms; }
+.choice-row:hover { background: #fafafa; }
+.choice-row.choice-selected { background: #eef2ff; }
+.choice-row:focus-within { outline: 2px solid #432dd7; outline-offset: -2px; }
+.choice-row > span:last-child { flex: 1; }
+.choice-row > span:last-child > span { font-size: .875rem; line-height: 1.5; }
+.consent-control { align-items: center; }
+@media (max-width: 639px) {
+  .progress-details { padding: 0 16px; }
+  .survey-header { height: 60px; }
+  .survey-card { height: max(22rem, calc(100dvh - 12.5rem)); }
+  .survey-scroll { padding: 28px 22px 4px; }
+  .step-title { font-size: 1.375rem; line-height: 1.4; }
+  .survey-card-footer { padding: 8px 22px 20px; }
+
+  .choice-row { padding: 12px 8px; }
+}
+@media (max-width: 359px) {
+  .progress-details { font-size: 11px; gap: 6px; padding: 0 12px; }
+  .survey-scroll { padding-inline: 18px; }
+  .survey-card-footer { padding-inline: 18px; }
+  .survey-card-footer button { font-size: 12px; padding-inline: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0s !important; animation: none !important; } }
+
+.progress-scope { height: 24px; line-height: 24px; margin: 0; }
+.choice-list, .coverage-list { scrollbar-width: thin; scrollbar-color: #c7c4d9 transparent; }
+.powered-by-woku { position: fixed; right: max(12px, env(safe-area-inset-right)); bottom: max(8px, env(safe-area-inset-bottom)); z-index: 20; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 6px 8px; border-radius: 6px; color: #525252; background: rgb(255 255 255 / .88); font-size: 10px; line-height: 14px; text-decoration: none; }
+.powered-by-woku:hover { background: white; color: #372aac; }
+.powered-by-woku:focus-visible { outline: 2px solid #432dd7; outline-offset: 2px; }
+
+.manuscript-link { position: fixed; top: 72px; right: max(12px, env(safe-area-inset-right)); z-index: 40; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 4px 8px; border-radius: 6px; background: rgb(255 255 255 / .94); color: #372aac; font-size: 12px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.manuscript-link:focus-visible { outline: 2px solid #432dd7; outline-offset: 2px; }
+.survey-preview .survey-header { height: 108px; padding-top: 32px; }
+.survey-preview .survey-card { height: clamp(24rem, calc(100dvh - 15.5rem), 42rem); }
+@media (max-width: 639px) { .survey-preview .survey-header { height: 92px; } .survey-preview .survey-card { height: max(22rem, calc(100dvh - 14.5rem)); } }

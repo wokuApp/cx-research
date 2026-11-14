@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T03:45:45.983Z",
+  "title": "Design System: woku survey-web",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary indigo",
+        "canonical": "#432dd7",
+        "tonalRamp": [
+          "oklch(15.00% 0.2396 276.93)",
+          "oklch(26.43% 0.2396 276.93)",
+          "oklch(37.86% 0.2396 276.93)",
+          "oklch(49.29% 0.2396 276.93)",
+          "oklch(60.71% 0.2396 276.93)",
+          "oklch(72.14% 0.2396 276.93)",
+          "oklch(83.57% 0.2396 276.93)",
+          "oklch(95.00% 0.2396 276.93)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Deep indigo",
+        "canonical": "#372aac",
+        "tonalRamp": [
+          "oklch(15.00% 0.1949 277.32)",
+          "oklch(26.43% 0.1949 277.32)",
+          "oklch(37.86% 0.1949 277.32)",
+          "oklch(49.29% 0.1949 277.32)",
+          "oklch(60.71% 0.1949 277.32)",
+          "oklch(72.14% 0.1949 277.32)",
+          "oklch(83.57% 0.1949 277.32)",
+          "oklch(95.00% 0.1949 277.32)"
+        ]
+      },
+      "progress": {
+        "role": "primary",
+        "displayName": "Progress indigo",
+        "canonical": "#4f46e5",
+        "tonalRamp": [
+          "oklch(15.00% 0.2301 276.97)",
+          "oklch(26.43% 0.2301 276.97)",
+          "oklch(37.86% 0.2301 276.97)",
+          "oklch(49.29% 0.2301 276.97)",
+          "oklch(60.71% 0.2301 276.97)",
+          "oklch(72.14% 0.2301 276.97)",
+          "oklch(83.57% 0.2301 276.97)",
+          "oklch(95.00% 0.2301 276.97)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus indigo",
+        "canonical": "oklch(58.5% 0.233 277.117)",
+        "tonalRamp": [
+          "oklch(15.00% 0.2330 277.12)",
+          "oklch(26.43% 0.2330 277.12)",
+          "oklch(37.86% 0.2330 277.12)",
+          "oklch(49.29% 0.2330 277.12)",
+          "oklch(60.71% 0.2330 277.12)",
+          "oklch(72.14% 0.2330 277.12)",
+          "oklch(83.57% 0.2330 277.12)",
+          "oklch(95.00% 0.2330 277.12)"
+        ]
+      },
+      "logo": {
+        "role": "primary",
+        "displayName": "woku logo",
+        "canonical": "#5149E7",
+        "tonalRamp": [
+          "oklch(15.00% 0.2289 277.04)",
+          "oklch(26.43% 0.2289 277.04)",
+          "oklch(37.86% 0.2289 277.04)",
+          "oklch(49.29% 0.2289 277.04)",
+          "oklch(60.71% 0.2289 277.04)",
+          "oklch(72.14% 0.2289 277.04)",
+          "oklch(83.57% 0.2289 277.04)",
+          "oklch(95.00% 0.2289 277.04)"
+        ]
+      },
+      "mint-field": {
+        "role": "secondary",
+        "displayName": "Mint field",
+        "canonical": "oklch(95% 0.052 163.051)",
+        "tonalRamp": [
+          "oklch(15.00% 0.0520 163.05)",
+          "oklch(26.43% 0.0520 163.05)",
+          "oklch(37.86% 0.0520 163.05)",
+          "oklch(49.29% 0.0520 163.05)",
+          "oklch(60.71% 0.0520 163.05)",
+          "oklch(72.14% 0.0520 163.05)",
+          "oklch(83.57% 0.0520 163.05)",
+          "oklch(95.00% 0.0520 163.05)"
+        ]
+      },
+      "indigo-field": {
+        "role": "secondary",
+        "displayName": "Pale indigo field",
+        "canonical": "#e0e7ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0334 272.79)",
+          "oklch(26.43% 0.0334 272.79)",
+          "oklch(37.86% 0.0334 272.79)",
+          "oklch(49.29% 0.0334 272.79)",
+          "oklch(60.71% 0.0334 272.79)",
+          "oklch(72.14% 0.0334 272.79)",
+          "oklch(83.57% 0.0334 272.79)",
+          "oklch(95.00% 0.0334 272.79)"
+        ]
+      },
+      "indigo-field-deep": {
+        "role": "secondary",
+        "displayName": "Indigo field",
+        "canonical": "oklch(87% 0.065 274.039)",
+        "tonalRamp": [
+          "oklch(15.00% 0.0650 274.04)",
+          "oklch(26.43% 0.0650 274.04)",
+          "oklch(37.86% 0.0650 274.04)",
+          "oklch(49.29% 0.0650 274.04)",
+          "oklch(60.71% 0.0650 274.04)",
+          "oklch(72.14% 0.0650 274.04)",
+          "oklch(83.57% 0.0650 274.04)",
+          "oklch(95.00% 0.0650 274.04)"
+        ]
+      },
+      "selected": {
+        "role": "secondary",
+        "displayName": "Selection tint",
+        "canonical": "#eef2ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0179 272.31)",
+          "oklch(26.43% 0.0179 272.31)",
+          "oklch(37.86% 0.0179 272.31)",
+          "oklch(49.29% 0.0179 272.31)",
+          "oklch(60.71% 0.0179 272.31)",
+          "oklch(72.14% 0.0179 272.31)",
+          "oklch(83.57% 0.0179 272.31)",
+          "oklch(95.00% 0.0179 272.31)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "surface-muted": {
+        "role": "neutral",
+        "displayName": "Muted surface",
+        "canonical": "#fafafa",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Heading ink",
+        "canonical": "#171717",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Body text",
+        "canonical": "#525252",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Supporting text",
+        "canonical": "#737373",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Field border",
+        "canonical": "#e5e5e5",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control border",
+        "canonical": "#d4d4d4",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Validation red",
+        "canonical": "#c10007",
+        "tonalRamp": [
+          "oklch(15.00% 0.2086 28.51)",
+          "oklch(26.43% 0.2086 28.51)",
+          "oklch(37.86% 0.2086 28.51)",
+          "oklch(49.29% 0.2086 28.51)",
+          "oklch(60.71% 0.2086 28.51)",
+          "oklch(72.14% 0.2086 28.51)",
+          "oklch(83.57% 0.2086 28.51)",
+          "oklch(95.00% 0.2086 28.51)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Step heading",
+        "purpose": "Single current-step title at widths of at least 640px."
+      },
+      "headline-mobile": {
+        "displayName": "Phone step heading",
+        "purpose": "Current-step title below 640px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Introductory paragraphs."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels and action text."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Local-preview disclosure."
+      }
+    },
+    "shadows": [
+      {
+        "name": "survey-card",
+        "value": "0 20px 60px -20px rgba(35,28,94,.25)",
+        "purpose": "Main white survey card."
+      },
+      {
+        "name": "popup-medium",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Inherited select-popup style; survey country/sector lists remain inline and flat."
+      },
+      {
+        "name": "dialog-large",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Dialog panels."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Inherited control state transitions."
+      },
+      {
+        "name": "progress-width",
+        "value": "300ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Progress indicator width."
+      },
+      {
+        "name": "step-wrapper",
+        "value": "200ms cubic-bezier(0.22, 1, 0.36, 1); opacity 0.8 → 1; y 7px → 0",
+        "purpose": "Content-only entrance on step change; card dimensions remain fixed."
+      },
+      {
+        "name": "pixel-glows",
+        "value": "19s/-5s, 24s/-13s, 27s/-9s, 22s/-17s; ease-in-out infinite alternate",
+        "purpose": "Exact inherited PixelGradientField cycles/delays; pause on hidden document."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none; transition-duration:0s; scroll-behavior:auto; wrapper initial=false, duration=0",
+        "purpose": "Reduced-motion preference disables decorative movement and transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-phone",
+        "value": "max-width: 359px"
+      },
+      {
+        "name": "phone-layout",
+        "value": "max-width: 639px"
+      },
+      {
+        "name": "desktop-layout",
+        "value": "min-width: 640px"
+      },
+      {
+        "name": "pixel-pitch",
+        "value": "min-width: 768px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Forward/footer action with the survey's 44px minimum height.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Continuar<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:8px 16px;font-size:14px;font-weight:500;line-height:20px;font-family:'Montserrat Variable','Montserrat',sans-serif;cursor:pointer;transition:background-color 150ms cubic-bezier(.4,0,.2,1),color 150ms cubic-bezier(.4,0,.2,1);background:var(--color-indigo-700,#432dd7);color:#fff;min-height:44px;}.ds-btn-primary:hover{background:var(--color-indigo-800,#372aac);}.ds-btn-primary:active{background:var(--color-indigo-800,#372aac);}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 2px white,0 0 0 4px var(--color-indigo-500,oklch(58.5% .233 277.117));}.ds-btn-primary:disabled{background:var(--color-neutral-200,#e5e5e5);color:var(--color-neutral-500,#737373);cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-btn-primary,.ds-btn-secondary,.ds-btn-tertiary,.ds-text-shell,.ds-choice,.ds-progress-fill{transition:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Inherited admin button variant used by the survey.",
+      "html": "<button class=\"ds-btn-secondary\" type=\"button\">Cancelar</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:8px 16px;font-size:14px;font-weight:500;line-height:20px;font-family:'Montserrat Variable','Montserrat',sans-serif;cursor:pointer;transition:background-color 150ms cubic-bezier(.4,0,.2,1),color 150ms cubic-bezier(.4,0,.2,1);background:#fff;color:var(--color-neutral-700,#404040);border-color:var(--color-neutral-200,#e5e5e5);}.ds-btn-secondary:hover{background:var(--color-neutral-50,#fafafa);border-color:var(--color-neutral-300,#d4d4d4);}.ds-btn-secondary:active{background:var(--color-neutral-100,#f5f5f5);}.ds-btn-secondary:focus-visible{outline:none;box-shadow:0 0 0 2px white,0 0 0 4px var(--color-indigo-500,oklch(58.5% .233 277.117));}.ds-btn-secondary:disabled{background:var(--color-neutral-50,#fafafa);color:var(--color-neutral-400,#a1a1a1);border-color:var(--color-neutral-200,#e5e5e5);cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-btn-primary,.ds-btn-secondary,.ds-btn-tertiary,.ds-text-shell,.ds-choice,.ds-progress-fill{transition:none}}"
+    },
+    {
+      "name": "Tertiary button",
+      "kind": "button",
+      "refersTo": "button-tertiary",
+      "description": "Inherited admin button variant used by the survey.",
+      "html": "<button class=\"ds-btn-tertiary\" type=\"button\">Volver</button>",
+      "css": ".ds-btn-tertiary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:8px 16px;font-size:14px;font-weight:500;line-height:20px;font-family:'Montserrat Variable','Montserrat',sans-serif;cursor:pointer;transition:background-color 150ms cubic-bezier(.4,0,.2,1),color 150ms cubic-bezier(.4,0,.2,1);background:transparent;color:var(--color-indigo-700,#432dd7);}.ds-btn-tertiary:hover{background:var(--color-indigo-50,#eef2ff);}.ds-btn-tertiary:active{background:var(--color-indigo-100,#e0e7ff);}.ds-btn-tertiary:focus-visible{outline:none;box-shadow:0 0 0 2px white,0 0 0 4px var(--color-indigo-500,oklch(58.5% .233 277.117));}.ds-btn-tertiary:disabled{background:transparent;color:var(--color-neutral-400,#a1a1a1);cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-btn-primary,.ds-btn-secondary,.ds-btn-tertiary,.ds-text-shell,.ds-choice,.ds-progress-fill{transition:none}}"
+    },
+    {
+      "name": "Email field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Base UI TextField appearance; native sample retains a real label and keyboard focus.",
+      "html": "<label class=\"ds-text-label\" for=\"ds-email\">Tu correo electrónico</label><div class=\"ds-text-shell\"><input id=\"ds-email\" class=\"ds-text-input\" type=\"email\" placeholder=\"nombre@empresa.com\" autocomplete=\"email\"></div>",
+      "css": ".ds-text-label{display:block;margin-bottom:8px;font-size:14px;font-weight:500;line-height:20px;color:var(--color-neutral-900,#171717);font-family:'Montserrat Variable','Montserrat',sans-serif;}.ds-text-shell{display:flex;align-items:center;height:48px;padding:0 16px;background:white;border:1px solid var(--color-neutral-200,#e5e5e5);border-radius:8px;transition:border-color 150ms}.ds-text-shell:focus-within{border-color:var(--color-indigo-700,#432dd7)}.ds-text-input{width:100%;min-width:0;border:0;outline:0;background:transparent;font-size:16px;line-height:24px;color:var(--color-neutral-900,#171717);caret-color:var(--color-indigo-700,#432dd7);font-family:'Montserrat Variable','Montserrat',sans-serif;}.ds-text-input::placeholder{color:var(--color-neutral-500,#737373)}.ds-text-shell:has(input:disabled){background:var(--color-neutral-50,#fafafa)}.ds-text-shell:has(input[aria-invalid=true]){border-color:var(--color-red-600,oklch(57.7% .245 27.325))}@media(prefers-reduced-motion:reduce){.ds-btn-primary,.ds-btn-secondary,.ds-btn-tertiary,.ds-text-shell,.ds-choice,.ds-progress-fill{transition:none}}"
+    },
+    {
+      "name": "Checkbox answer row",
+      "kind": "custom",
+      "refersTo": "choice-row",
+      "description": "Whole-row selection, 20px box, 48px minimum row height, visible keyboard focus.",
+      "html": "<label class=\"ds-choice\"><input type=\"checkbox\" checked class=\"ds-choice-input\"><span class=\"ds-choice-box\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg></span><span>Analizar comentarios, reclamos, reseñas o conversaciones de clientes</span></label>",
+      "css": ".ds-choice{position:relative;display:flex;align-items:center;gap:12px;min-height:48px;padding:12px;border-radius:8px;color:var(--color-neutral-900,#171717);font-size:14px;line-height:1.5;cursor:pointer;transition:background-color 150ms;font-family:'Montserrat Variable','Montserrat',sans-serif;}.ds-choice:hover{background:var(--color-neutral-50,#fafafa)}.ds-choice:has(input:checked){background:var(--color-indigo-50,#eef2ff)}.ds-choice:focus-within{outline:2px solid var(--color-indigo-700,#432dd7);outline-offset:-2px}.ds-choice-input{position:absolute;opacity:0;width:20px;height:20px}.ds-choice-box{display:flex;align-items:center;justify-content:center;flex:none;width:18px;height:18px;border:1px solid var(--color-neutral-300,#d4d4d4);border-radius:4px;background:white;color:white}.ds-choice-box svg{visibility:hidden}.ds-choice:has(input:checked) .ds-choice-box{background:var(--color-indigo-700,#432dd7);border-color:var(--color-indigo-700,#432dd7)}.ds-choice:has(input:checked) svg{visibility:visible}@media(max-width:639px){.ds-choice{padding:12px 8px}}@media(prefers-reduced-motion:reduce){.ds-btn-primary,.ds-btn-secondary,.ds-btn-tertiary,.ds-text-shell,.ds-choice,.ds-progress-fill{transition:none}}"
+    },
+    {
+      "name": "Radio answer row",
+      "kind": "custom",
+      "refersTo": "choice-row",
+      "description": "Single-selection answer using the same row treatment.",
+      "html": "<label class=\"ds-radio-row\"><input class=\"ds-radio-input\" type=\"radio\" name=\"ds-answer\" checked><span class=\"ds-radio-control\"></span><span>Sí</span></label>",
+      "css": ".ds-radio-row{position:relative;display:flex;align-items:center;gap:12px;min-height:48px;padding:12px;border-radius:8px;color:var(--color-neutral-900,#171717);font-size:14px;line-height:1.5;cursor:pointer;font-family:'Montserrat Variable','Montserrat',sans-serif;}.ds-radio-row:hover{background:var(--color-neutral-50,#fafafa)}.ds-radio-row:has(input:checked){background:var(--color-indigo-50,#eef2ff)}.ds-radio-row:focus-within{outline:2px solid var(--color-indigo-700,#432dd7);outline-offset:-2px}.ds-radio-input{position:absolute;opacity:0;width:20px;height:20px}.ds-radio-control{display:flex;align-items:center;justify-content:center;flex:none;width:18px;height:18px;border:1px solid var(--color-neutral-300,#d4d4d4);border-radius:50%;background:white}.ds-radio-row:has(input:checked) .ds-radio-control{border-color:var(--color-indigo-700,#432dd7)}.ds-radio-row:has(input:checked) .ds-radio-control:after{content:\"\";width:10px;height:10px;border-radius:50%;background:var(--color-indigo-700,#432dd7)}@media(max-width:639px){.ds-radio-row{padding:12px 8px}}"
+    },
+    {
+      "name": "Inline searchable choice list",
+      "kind": "input",
+      "description": "Country/sector Base UI Autocomplete appearance. In production this flexes into the remaining card height; only the list scrolls. The static sample shows its visible selected state. Spanish-only scope covers 18 Hispanoamerican countries, excluding Brazil and Haiti.",
+      "html": "<div class=\"ds-inline-picker\"><div class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Operación\" placeholder=\"Busca un país o elige Multinacional\"></div><div class=\"ds-choice-list\" role=\"listbox\" aria-label=\"Operaciones disponibles\"><div class=\"ds-choice-option ds-choice-option-selected\" role=\"option\" aria-selected=\"true\" tabindex=\"0\"><span>Multinacional en Hispanoamérica</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg></div><div class=\"ds-choice-option\" role=\"option\" aria-selected=\"false\" tabindex=\"0\">Chile</div></div></div>",
+      "css": ".ds-inline-picker{display:flex;min-height:0;flex:1;flex-direction:column;font-family:'Montserrat Variable','Montserrat',sans-serif}.ds-search{display:flex;flex-shrink:0;align-items:center;gap:8px;padding:12px;border:1px solid var(--color-neutral-200,#e5e5e5);border-radius:8px;background:white;color:var(--color-neutral-500,#737373)}.ds-search:focus-within{box-shadow:0 0 0 2px var(--color-indigo-700,#432dd7)}.ds-search svg{flex:none}.ds-search input{width:100%;min-width:0;border:0;outline:0;background:transparent;font-family:inherit;font-size:16px;line-height:24px;color:var(--color-neutral-900,#171717)}.ds-search input::placeholder{color:var(--color-neutral-500,#737373)}.ds-choice-list{margin-top:12px;min-height:0;flex:1;overflow-y:auto;overscroll-behavior:contain;border:1px solid var(--color-neutral-200,#e5e5e5);border-radius:8px;padding:4px;scrollbar-width:thin;scrollbar-color:#c7c4d9 transparent}.ds-choice-option{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:12px;border-radius:8px;color:var(--color-neutral-900,#171717);font-size:14px;line-height:20px;cursor:pointer}.ds-choice-option:focus-visible,.ds-choice-option:hover{outline:none;background:var(--color-neutral-100,#f5f5f5)}.ds-choice-option-selected{background:var(--color-indigo-50,#eef2ff);font-weight:500;color:var(--color-indigo-800,#372aac)}.ds-choice-option svg{flex:none}"
+    },
+    {
+      "name": "Viewport progress",
+      "kind": "nav",
+      "refersTo": "viewport-progress",
+      "description": "66px production strip fixed at viewport y=0, including the persistent CX topic. The isolated sample omits fixed positioning to stay inside the panel. Counts follow eligibility and include P01/P02 during the first-50-response pilot; the displayed count is an illustrative main-study state.",
+      "html": "<div class=\"ds-progress\"><div class=\"ds-progress-track\" role=\"progressbar\" aria-label=\"Avance del cuestionario\" aria-valuemin=\"0\" aria-valuemax=\"19\" aria-valuenow=\"1\"><div class=\"ds-progress-fill\"></div></div><p class=\"ds-progress-scope\">IA en la experiencia del cliente</p><div class=\"ds-progress-details\"><span>Inicio</span><span class=\"ds-progress-count\">Paso 1 de 19 <span>· hasta 18 por completar</span></span></div></div>",
+      "css": ".ds-progress{width:100%;margin:0;padding:0;background:white;font-family:'Montserrat Variable','Montserrat',sans-serif;}.ds-progress-track{height:6px;background:var(--color-indigo-100,#e0e7ff);overflow:hidden}.ds-progress-fill{height:100%;width:5.2631578947%;background:var(--color-indigo-600,#4f46e5);transition:width 300ms cubic-bezier(.4,0,.2,1)}.ds-progress-details{display:flex;align-items:center;justify-content:space-between;gap:12px;height:36px;padding:0 24px;font-size:14px;line-height:20px;color:var(--color-neutral-700,#404040)}.ds-progress-count{color:var(--color-indigo-800,#372aac);font-weight:500;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-progress-count span{color:var(--color-neutral-600,#525252);font-weight:400}@media(max-width:639px){.ds-progress-details{padding:0 16px;font-size:12px}}@media(max-width:359px){.ds-progress-details{padding:0 12px;font-size:11px;gap:6px}}@media(prefers-reduced-motion:reduce){.ds-btn-primary,.ds-btn-secondary,.ds-btn-tertiary,.ds-text-shell,.ds-choice,.ds-progress-fill{transition:none}}.ds-progress-scope{height:24px;line-height:24px;margin:0;text-align:center;font-size:12px;font-weight:600;color:var(--color-indigo-800,#372aac)}"
+    },
+    {
+      "name": "Stable survey card",
+      "kind": "card",
+      "refersTo": "survey-card",
+      "description": "Responsive fixed card dimensions with a nonshrinking footer. Ordinary content scrolls; country, sector and coverage steps hide outer overflow and scroll only their flexing list. SurveyAccess reuses this card identity for loading, paused and unavailable states; availability comes from MSW-intercepted mock endpoints.",
+      "html": "<section class=\"ds-card\"><div class=\"ds-card-scroll\"><h1 class=\"ds-card-title\">IA en la experiencia del cliente</h1><p class=\"ds-card-copy\">Cuéntanos cómo tu empresa utiliza o no IA para gestionar la experiencia de sus clientes, antes, durante y después de la compra.</p></div><footer class=\"ds-card-footer\"><div class=\"ds-card-error\" role=\"status\"></div><span class=\"ds-card-footer-note\">Navegación del paso</span></footer></section>",
+      "css": ".ds-card{display:flex;flex-direction:column;overflow:hidden;width:100%;max-width:48rem;height:clamp(24rem,calc(100dvh - 13.5rem),42rem);background:white;border-radius:16px;box-shadow:0 20px 60px -20px rgba(35,28,94,.25);font-family:'Montserrat Variable','Montserrat',sans-serif;}.ds-card-scroll{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:40px 48px 8px;scrollbar-width:thin;scrollbar-color:#c7c4d9 transparent;scrollbar-gutter:stable}.ds-card-title{margin:0;font-size:28px;font-weight:700;line-height:1.35;letter-spacing:-.025em;text-wrap:balance;color:var(--color-neutral-900,#171717)}.ds-card-copy{margin:20px 0 0;font-size:16px;line-height:28px;color:var(--color-neutral-600,#525252)}.ds-card-footer{flex-shrink:0;padding:8px 48px 28px;background:white}.ds-card-error{min-height:20px;padding-bottom:8px;font-size:14px;line-height:20px;color:var(--color-red-700,#c10007)}.ds-card-footer-note{font-size:12px;color:var(--color-neutral-500,#737373)}@media(max-width:639px){.ds-card{height:max(22rem,calc(100dvh - 12.5rem))}.ds-card-scroll{padding:28px 22px 4px}.ds-card-title{font-size:22px;line-height:1.4}.ds-card-footer{padding:8px 22px 20px}}@media(max-width:359px){.ds-card-scroll,.ds-card-footer{padding-inline:18px}}.ds-card-scroll.ds-card-list-step{display:flex;flex-direction:column;overflow:hidden}.ds-card-list-step .ds-card-title{flex-shrink:0}"
+    },
+    {
+      "name": "Powered by woku",
+      "kind": "custom",
+      "refersTo": "powered-by",
+      "description": "Small bottom-right attribution; production is fixed with safe-area offsets. The isolated sample stays in document flow.",
+      "html": "<a class=\"ds-powered\" href=\"https://woku.app\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Abrir woku en otra pestaña\"><span>Powered by</span><svg viewBox=\"0 0 120 44\" width=\"38.18\" height=\"14\" aria-hidden=\"true\"><path fill=\"#5149E7\" d=\"M103.351 42.954c-1.998 0-3.626-.647-4.883-1.942-1.221-1.332-1.832-3.07-1.832-5.217l.333-6.382-.61-13.319 7.436-1.387-.721 16.87c0 1.591.277 2.757.832 3.497.592.74 1.517 1.11 2.775 1.11s2.997-.63 5.217-1.887v-3.33l-.611-14.595 7.492-1.388-.666 13.874.056 4.551c0 2.368.61 4.754 1.831 7.159l-5.771 2.553c-1.221-2.405-1.961-4.329-2.22-5.772-3.33 3.737-6.216 5.605-8.658 5.605ZM87.233 43.51 76.799 28.136v.388l.61 13.042-7.491 1.387.666-13.485-.666-28.082L77.52 0l-.722 26.805L87.9 14.65l5.216 3.552-9.712 9.101L93.56 39.292l-6.326 4.217ZM41.48 31.355c0-4.735 1.277-8.75 3.83-12.042 2.553-3.293 5.531-4.94 8.935-4.94 3.44 0 6.105 1.11 7.992 3.33 1.923 2.22 2.885 5.161 2.885 8.824 0 4.884-1.239 8.954-3.718 12.21-2.442 3.218-5.531 4.828-9.268 4.828-3.07 0-5.623-1.147-7.658-3.441-1.998-2.331-2.997-5.254-2.997-8.769Zm17.427-1.942c0-5.365-1.832-8.047-5.494-8.047-3.811 0-5.716 2.516-5.716 7.547 0 2.627.536 4.68 1.609 6.16 1.073 1.48 2.479 2.22 4.218 2.22 1.776 0 3.107-.666 3.995-1.997.925-1.37 1.388-3.33 1.388-5.883ZM27.304 36.017h.722l1.776-7.603 2.886-13.707 6.77.832-4.051 13.763-3.385 12.986-9.102.833-3.052-13.486-.278-.888-3.718 13.541-8.824.833L3.83 29.635 0 16.15l7.27-1.387 2.275 12.21 1.998 9.045h.722l4.772-15.816-1.165-4.052 7.16-1.387 2.33 12.21 1.942 9.045Z\"/></svg></a>",
+      "css": ".ds-powered{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:6px 8px;border-radius:6px;color:var(--color-neutral-600,#525252);background:rgb(255 255 255/.88);font-family:'Montserrat Variable','Montserrat',sans-serif;font-size:10px;line-height:14px;text-decoration:none}.ds-powered span{margin-top:6px}.ds-powered svg{height:14px;width:auto}.ds-powered:hover{background:white;color:var(--color-indigo-800,#372aac)}.ds-powered:focus-visible{outline:2px solid var(--color-indigo-700,#432dd7);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "woku onboarding continuity",
+    "overview": "This document describes only survey-web/, the v0.5 Spanish-only survey preview for Hispanoamérica: 18 countries, excluding Brazil and Haiti. There is no language selector. The visual authority is the existing woku admin onboarding, especially FirstRunShell and JourneyOnboarding. Keep its mint/indigo field, authentic lowercase logo, Montserrat, white surface and quiet Base UI controls.\n\nThe implementation favors one readable task at a time. The persistent CX topic and progress, utility header, stable card and two bottom-corner footer elements each have a distinct place. SurveyAccess gates the questionnaire on availability from browser-intercepted mock endpoints; loading, paused and error states reuse the card. This is a record of the built surface, not a new identity for the research repository or admin.",
+    "keyCharacteristics": [
+      "The exact inherited pixel-light animation surrounds a calm white card.",
+      "A separate edge-to-edge progress strip and persistent CX topic stay at the top of the viewport.",
+      "Content scrolls within a stable card; list steps reserve their own scroll region and navigation stays in the footer.",
+      "Shared admin controls preserve familiar focus, selection and disabled states."
+    ],
+    "rules": [
+      {
+        "name": "The Stable Card Rule",
+        "body": "Preserve the outer card dimensions between steps for a given viewport. Its flexing content region has `min-height: 0`, contained overscroll and a stable scrollbar gutter. Ordinary steps scroll this region vertically. Country, sector and regional-coverage steps hide outer overflow and use a flex column; title, help and search stay fixed while only the remaining-height list scrolls. The footer does not shrink. Very short viewports may scroll the page because the card retains its minimum height. Step changes reset internal scroll and focus the heading after initial load.",
+        "section": "layout"
+      },
+      {
+        "name": "The Viewport Progress Rule",
+        "body": "Keep the bar outside the card, full width, with no outer padding, margin, border or rounding. The details row may have horizontal padding; the track may not.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "Do reuse the copied Base UI controls and authentic lowercase woku logo.",
+      "Do preserve the exact PixelGradientField source, mask, timing and reduced-motion behavior.",
+      "Do keep content and validation within the stable card, with navigation in its footer and only one scrollbar on list steps.",
+      "Do preserve explicit labels, heading focus, visible selection/focus and the local-preview disclosure.",
+      "Do keep visible copy in Spanish, use Hispanoamérica consistently and avoid em dashes."
+    ],
+    "donts": [
+      "Don't move progress into or below the card, or inset its track.",
+      "Don't resize or animate the card between questions.",
+      "Don't introduce a new visual identity or edit the admin reference as part of this survey.",
+      "Don't imply a real submission, email or verification in this local preview."
+    ]
+  }
+}

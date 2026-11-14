@@ -1,0 +1,192 @@
+[
+  {
+    "id": "Q00",
+    "bloque": "Consentimiento",
+    "tipo": "única",
+    "pregunta_es": "¿Acepta participar voluntariamente en este estudio, según la información presentada?",
+    "opciones_es": "1=Sí | 0=No",
+    "mostrar_si": "Todos",
+    "filas_es": "",
+    "nota_programacion": "Mostrar información y consentimiento antes de recoger respuestas. Aceptar cualquier tipo de correo al inicio; no verificar antes de responder. Al enviar: guardar encuesta y después enviar verificación. Mantener tanto verificadas como no verificadas. 0: terminar sin guardar respuestas sustantivas sin consentimiento. Campo previo ES: Tu correo electrónico (idealmente empresarial). Ayuda ES: Puedes usar cualquier correo. Lo usaremos únicamente para verificar tu respuesta después de enviarla y enviarte los resultados al finalizar el estudio. No lo usaremos para marketing ni publicidad. Campo previo PT-BR: Seu e-mail (de preferência, profissional). Ajuda PT-BR: Você pode usar qualquer e-mail. Ele será usado somente para verificar sua resposta após o envio e enviar os resultados ao final do estudo. Não será usado para marketing nem publicidade."
+  },
+  {
+    "id": "Q01",
+    "bloque": "Perfil",
+    "tipo": "texto breve",
+    "pregunta_es": "¿Cómo se llama tu empresa?",
+    "opciones_es": "Texto ≤120 caracteres | PREF=Prefiero no indicarlo",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "Se usa para detectar posibles duplicados, no se publica en resultados. Guardar nombre separado de respuestas analíticas. Si no se informa, conservar la respuesta y marcar la identificación empresarial como incompleta; no inventar una empresa ni exigir correo corporativo."
+  },
+  {
+    "id": "Q02",
+    "bloque": "Perfil",
+    "tipo": "única",
+    "pregunta_es": "¿Sobre qué operación de la empresa responderás?",
+    "opciones_es": "LATAM=Multinacional en Hispanoamérica | AR=Argentina | BO=Bolivia | CL=Chile | CO=Colombia | CR=Costa Rica | CU=Cuba | EC=Ecuador | SV=El Salvador | GT=Guatemala | HN=Honduras | MX=México | NI=Nicaragua | PA=Panamá | PY=Paraguay | PE=Perú | DO=República Dominicana | UY=Uruguay | VE=Venezuela | OT=Otro país",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "LATAM es el grupo regional y aparece primero. Activar Q02C sólo para LATAM. Un país representa su operación nacional, no la casa matriz. Cambiar alcance limpia respuestas posteriores para no mezclar denominadores."
+  },
+  {
+    "id": "Q02C",
+    "bloque": "Perfil",
+    "tipo": "múltiple",
+    "pregunta_es": "¿Qué países abarca tu respuesta?",
+    "opciones_es": "AR=Argentina | BO=Bolivia | CL=Chile | CO=Colombia | CR=Costa Rica | CU=Cuba | EC=Ecuador | SV=El Salvador | GT=Guatemala | HN=Honduras | MX=México | NI=Nicaragua | PA=Panamá | PY=Paraguay | PE=Perú | DO=República Dominicana | UY=Uruguay | VE=Venezuela | DK=No sé precisar los países",
+    "mostrar_si": "Q02=LATAM",
+    "filas_es": "",
+    "nota_programacion": "Seleccionar dos o más países, o DK solo. Es el alcance de esta respuesta, no todas las operaciones mundiales ni el país de casa matriz. No distribuir esta respuesta entre tasas nacionales."
+  },
+  {
+    "id": "Q03",
+    "bloque": "Perfil",
+    "tipo": "única",
+    "pregunta_es": "¿Cuántas personas trabajan en la empresa?",
+    "opciones_es": "1=1–9 | 2=10–49 | 3=50–249 | 4=250 o más | 0=Ninguna | 99=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "Bandas según la operación seleccionada: país o conjunto regional declarado. El encabezado se mantiene breve; la ayuda aclara el alcance. No recoger además ventas o empleo exacto."
+  },
+  {
+    "id": "Q04",
+    "bloque": "Perfil",
+    "tipo": "única",
+    "pregunta_es": "¿A qué sector pertenece la empresa?",
+    "opciones_es": "1=Comercio | 2=Industria o manufactura | 3=Servicios financieros o seguros | 4=Tecnología, información o telecomunicaciones | 5=Servicios profesionales o administrativos | 6=Transporte o logística | 7=Turismo, alojamiento o alimentación | 8=Salud | 9=Educación | 10=Construcción o actividades inmobiliarias | 11=Agro, minería, energía o servicios básicos | 12=Otra actividad empresarial | 99=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "Clasificación resumida propia; no anunciar equivalencia exacta a ISIC sin recodificación. Para 12, texto opcional máximo 80 caracteres."
+  },
+  {
+    "id": "Q05",
+    "bloque": "Perfil",
+    "tipo": "única",
+    "pregunta_es": "¿Cuál es tu rol o posición en la empresa?",
+    "opciones_es": "1=Propietario/a o dirección general | 2=Experiencia, atención o éxito del cliente | 3=Marketing o ventas | 4=Tecnología, datos o transformación digital | 5=Operaciones | 6=Otro rol | 99=Prefiero no indicarlo",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "Función autodeclarada. La opción 99 permite no indicarla. No equivale a acreditar representación ni conocimiento empresarial; se retiró la antigua salida por desconocimiento de esta pregunta."
+  },
+  {
+    "id": "Q06",
+    "bloque": "Perfil",
+    "tipo": "única",
+    "pregunta_es": "¿La empresa está formalmente registrada?",
+    "opciones_es": "1=Sí | 0=No | 99=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "1: elegible por formalidad; 0: fuera del universo formal; 99: elegibilidad indeterminada. Conservar registros enviados con su marca, sin tratarlos como no adoptantes."
+  },
+  {
+    "id": "Q07",
+    "bloque": "Adopción",
+    "tipo": "única",
+    "pregunta_es": "¿Cómo usa la empresa la IA en la experiencia del cliente?",
+    "opciones_es": "0=No usamos IA en experiencia del cliente ni lo estamos considerando | 1=Lo estamos evaluando, sin pruebas activas | 2=Estamos realizando pruebas o pilotos | 3=La usamos habitualmente en actividades puntuales | 5=Su uso está extendido a varias áreas o procesos de experiencia del cliente | 4=Suspendimos todos los usos que teníamos | 99=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "Estado global actual en experiencia del cliente. 3=habitual puntual; 5=extendido en varias áreas/procesos; 2=sólo pruebas. No es una escala numérica validada de madurez."
+  },
+  {
+    "id": "Q08",
+    "bloque": "Adopción",
+    "tipo": "múltiple",
+    "pregunta_es": "¿En qué tareas de experiencia del cliente usaron IA en los últimos 90 días?",
+    "opciones_es": "T1=Analizar opiniones, reclamos o conversaciones de clientes | T2=Predecir necesidades, abandono o problemas de clientes | T3=Personalizar recomendaciones y comunicaciones | T4=Atender clientes por chat o voz | T5=Asistir al equipo que atiende a clientes | T6=Resolver reclamos y recuperar experiencias negativas | T7=Investigar necesidades y mejorar el recorrido del cliente | T8=Gestionar pedidos, reservas o devoluciones de clientes | NONE=En ninguna | DK=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "NONE y DK exclusivos. Responder aunque Q07 indique suspensión: pudo haber uso reciente. Con alguna T, mostrar Q09–Q13; con NONE o DK, ir a Q14. Si Q07=3 y Q08=NONE, permitir revisar sin forzar cambio."
+  },
+  {
+    "id": "Q09",
+    "bloque": "Aplicación principal",
+    "tipo": "única dinámica",
+    "pregunta_es": "¿En cuál de estas actividades usan más IA?",
+    "opciones_es": "Opciones T1…T8 seleccionadas en Q08",
+    "mostrar_si": "Q08 contiene al menos una T",
+    "filas_es": "",
+    "nota_programacion": "Con una sola actividad, asignar automáticamente sin mostrar. Q10–Q13 se refieren sólo a esta actividad principal; no a todas las aplicaciones."
+  },
+  {
+    "id": "Q10",
+    "bloque": "Aplicación principal",
+    "tipo": "única",
+    "pregunta_es": "¿Cómo accede esta aplicación a la información de la empresa?",
+    "opciones_es": "0=No utiliza información interna | 1=Se introduce o carga manualmente | 2=Accede automáticamente a un sistema o fuente interna | 3=Accede automáticamente a varios sistemas o fuentes internas | 99=No sabe",
+    "mostrar_si": "Q08 contiene al menos una T",
+    "filas_es": "",
+    "nota_programacion": "Si combina manual y automático, escoger el mayor nivel de conexión automática. No asumir que más conexión es mejor calidad."
+  },
+  {
+    "id": "Q11",
+    "bloque": "Aplicación principal",
+    "tipo": "múltiple",
+    "pregunta_es": "¿Qué soluciones usan en esta actividad de experiencia del cliente?",
+    "opciones_es": "CHAT=Chatbots con IA para atención por texto | FLOW=Flujos y automatizaciones potenciados con IA | AGENT=Agentes de IA que ejecutan tareas o acciones | VOICE=Agentes de voz con IA | COPILOT=Copilotos o asistentes para el equipo de atención | PREDICT=Analítica predictiva o recomendaciones para clientes | INTERNAL=Desarrollos internos de la empresa | PROVIDER=Soluciones de proveedores externos | HITL=Revisión o autorización humana (human in the loop) | AUTO=Ejecución sin revisión humana previa | OTHER=Otra solución o modalidad | DK=No sabe",
+    "mostrar_si": "Q08 contiene al menos una T",
+    "filas_es": "",
+    "nota_programacion": "Respuesta múltiple agrupada por tecnología, origen y participación humana. Los grupos no son escalas equivalentes ni excluyentes: pueden coexistir. DK es exclusivo. No inferir ausencia a partir de no selección; no deducir proveedor a partir del tipo de tecnología."
+  },
+  {
+    "id": "Q12",
+    "bloque": "Resultados percibidos",
+    "tipo": "única",
+    "pregunta_es": "¿Cómo ha cambiado la experiencia del cliente con esta aplicación?",
+    "opciones_es": "-1=Empeoró | 0=Se mantuvo | 1=Mejoró | 99=No sabe o aún no puede evaluarlo",
+    "mostrar_si": "Q08 contiene al menos una T",
+    "filas_es": "",
+    "nota_programacion": "Percepción global de un informante sobre una aplicación. No mide por separado tiempos, satisfacción o costos, ni prueba impacto causal. No tratar como una escala validada de CX."
+  },
+  {
+    "id": "Q13",
+    "bloque": "Resultados percibidos",
+    "tipo": "múltiple",
+    "pregunta_es": "¿En qué se basa esa evaluación?",
+    "opciones_es": "1=Impresión personal o comentarios informales | 2=Indicadores internos de operación | 3=Encuestas o mediciones de clientes | 4=Evaluación económica documentada | NONE=No existe información para evaluar | DK=No sabe",
+    "mostrar_si": "Q08 contiene al menos una T",
+    "filas_es": "",
+    "nota_programacion": "NONE y DK exclusivos. Base declarada de la percepción de Q12; no verifica indicadores ni pide documentos."
+  },
+  {
+    "id": "Q14",
+    "bloque": "Barreras",
+    "tipo": "múltiple máximo 3",
+    "pregunta_es": "¿Qué dificulta usar IA en la experiencia del cliente?",
+    "opciones_es": "1=Costo o presupuesto | 2=Falta de tiempo | 3=Falta de conocimientos | 4=Datos insuficientes o poco organizados | 5=Dificultad de integración tecnológica | 6=Preocupación por privacidad o seguridad | 7=Dudas sobre calidad o confiabilidad | 8=Beneficios o necesidades poco claros | 9=Resistencia de empleados o clientes | 10=Falta de proveedores o apoyo adecuado | 11=Otro | NONE=Ninguno | DK=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "NONE y DK exclusivos; orden aleatorio de 1–10 si la plataforma lo permite; no interpretar no seleccionado como ausencia total de barrera."
+  },
+  {
+    "id": "Q15",
+    "bloque": "Planes",
+    "tipo": "única",
+    "pregunta_es": "¿Qué planean hacer con la IA en experiencia del cliente?",
+    "opciones_es": "1=Iniciar o retomar pruebas | 2=Ampliar su uso | 3=Mantener el uso actual | 4=Reducirlo o suspenderlo | 5=No está previsto utilizarla | 6=Todavía no hay una decisión | 99=No sabe",
+    "mostrar_si": "Todos elegibles",
+    "filas_es": "",
+    "nota_programacion": "Intención separada de adopción. No exigir que planes coincidan con estado actual; revisar inconsistencias descriptivamente."
+  },
+  {
+    "id": "P01",
+    "bloque": "Evaluación del piloto",
+    "tipo": "única",
+    "pregunta_es": "¿Qué tan claras te resultaron las preguntas?",
+    "opciones_es": "5=Muy claras | 4=Claras | 3=Ni claras ni confusas | 2=Poco claras | 1=Nada claras",
+    "mostrar_si": "Piloto habilitado por endpoint de estado; primeras 50 respuestas admitidas",
+    "filas_es": "",
+    "nota_programacion": "Piloto: paso independiente. P01 requerida, P02 puede enviarse vacío. No inferir autorización de piloto desde un contador sólo del cliente."
+  },
+  {
+    "id": "P02",
+    "bloque": "Evaluación del piloto",
+    "tipo": "texto opcional",
+    "pregunta_es": "¿Qué pregunta cambiarías o qué opción te faltó?",
+    "opciones_es": "Texto opcional ≤500 caracteres",
+    "mostrar_si": "Piloto habilitado por endpoint de estado; primeras 50 respuestas admitidas",
+    "filas_es": "",
+    "nota_programacion": "Piloto: paso independiente. P01 requerida, P02 puede enviarse vacío. No inferir autorización de piloto desde un contador sólo del cliente."
+  }
+]

@@ -1,0 +1,47 @@
+// Explicit, single-recipient production trial. Never part of the automatic test suite.
+import {chromium,expect} from '@playwright/test';
+import {writeFile,mkdir} from 'node:fs/promises';
+if(process.env.RESEARCH_PRODUCTION_TRIAL!=='confirmed')throw new Error('Set RESEARCH_PRODUCTION_TRIAL=confirmed only for an authorized production trial.');
+const origin='https://research.woku.app';
+const recipient='research@woku.app';
+const browser=await chromium.launch({headless:true});
+try {
+ const page=await browser.newPage({viewport:{width:1440,height:950}});
+ const errors=[];let submittedPayload;let receipt;
+ page.on('pageerror',error=>errors.push(error.message));
+ page.on('request',request=>{if(new URL(request.url()).pathname==='/v1/api/survey/responses')submittedPayload=request.postDataJSON();});
+ await page.goto(origin,{waitUntil:'networkidle'});
+ await expect(page.getByLabel('Tu correo electrónico',{exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Simular el backend'})).toHaveCount(0);
+ await page.getByLabel('Tu correo electrónico',{exact:true}).fill(recipient);
+ await page.getByRole('button',{name:'Comenzar encuesta',exact:true}).click();
+ const next=async()=>page.getByRole('button',{name:'Continuar',exact:true}).click();
+ const choose=async name=>{await page.getByRole('radio',{name,exact:true}).check();await next();};
+ await page.getByRole('checkbox',{name:/He leído/}).check();await next();
+ await page.getByRole('textbox',{name:/Cómo se llama/}).fill('PRUEBA TÉCNICA EN PRODUCCIÓN, EXCLUIR DEL ESTUDIO');await next();
+ await page.getByRole('combobox',{name:'Busca un país o elige Multinacional'}).fill('Chile');
+ await page.getByRole('option',{name:'Chile',exact:true}).click();await next();
+ await choose('1–9');
+ await page.getByRole('combobox',{name:'Busca una actividad'}).fill('Comercio');await page.getByRole('option',{name:'Comercio',exact:true}).click();await next();
+ await choose('Propietario/a o dirección general');await choose('Sí');
+ await expect(page.getByRole('heading',{level:1})).toHaveText('IA aplicada a la experiencia del cliente');await next();
+ await choose('No usamos IA en experiencia del cliente ni lo estamos considerando');
+ await page.getByRole('checkbox',{name:'En ninguna',exact:true}).check();await next();
+ await page.getByRole('checkbox',{name:'Costo o presupuesto',exact:true}).check();await next();
+ await choose('No está previsto utilizarla');
+ await page.getByRole('combobox',{name:'Etapa del caso'}).click();
+ await page.getByRole('option',{name:'Sin implementación ni planes',exact:true}).click();await next();
+ await expect(page.getByRole('heading',{level:1})).toHaveText('¿Qué tan claras te resultaron las preguntas?');
+ await choose('Claras');
+ await page.getByRole('textbox',{name:/Qué pregunta cambiarías/}).fill('Prueba técnica autorizada en producción. Reiniciar al terminar la revisión; no analizar como respuesta de empresa.');
+ await page.getByRole('button',{name:'Revisar respuestas',exact:true}).click();
+ const responsePromise=page.waitForResponse(response=>new URL(response.url()).pathname==='/v1/api/survey/responses');
+ await page.getByRole('button',{name:'Enviar encuesta',exact:true}).click();
+ const response=await responsePromise;receipt=await response.json();
+ if(response.status()!==200||receipt.accepted!==true)throw new Error(`Submission was not accepted: ${response.status()} ${JSON.stringify(receipt)}`);
+ await expect(page.getByRole('heading',{name:'Tu respuesta quedó guardada',exact:true})).toBeVisible();
+ if(errors.length)throw new Error(`Browser errors: ${errors.join(', ')}`);
+ await mkdir('../survey-api/.test-evidence',{recursive:true});
+ await writeFile('../survey-api/.test-evidence/production-trial-response.json',JSON.stringify({payload:submittedPayload,receipt},null,2),{mode:0o600});
+ console.log(JSON.stringify({accepted:true,submissionId:receipt.submissionId,emailVerified:receipt.emailVerified,verificationEmail:receipt.verificationEmail,completed:receipt.status.completed,browserErrors:errors.length}));
+}finally{await browser.close();}

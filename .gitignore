@@ -1,0 +1,37 @@
+# Dependencies and build products
+node_modules/
+dist/
+cdk.out/
+cdk.context.json
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.venv/
+# Local evidence, caches and participant data
+.test-evidence/
+test-results/
+playwright-report/
+.orx/
+.agents/
+.impeccable/
+.DS_Store
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.dump
+*.sqlite*
+**/datos/privados/
+**/data/raw/
+# Secrets; documented examples are allowed
+.env*
+!.env.example
+!.env.production.example
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json

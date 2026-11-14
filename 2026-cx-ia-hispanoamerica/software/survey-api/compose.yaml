@@ -1,0 +1,19 @@
+name: woku-research-local
+services:
+  postgres:
+    image: postgres:18-alpine@sha256:1018733457011bf88d81db98cf43aac6d5150afc18787dbe204771fedf80ff95
+    environment:
+      POSTGRES_USER: research_test
+      POSTGRES_PASSWORD: local-test-only
+      POSTGRES_DB: research_test
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - research-local-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U research_test -d research_test"]
+      interval: 2s
+      timeout: 2s
+      retries: 20
+volumes:
+  research-local-data:

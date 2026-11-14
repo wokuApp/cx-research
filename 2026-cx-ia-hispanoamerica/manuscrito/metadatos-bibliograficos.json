@@ -1,0 +1,2078 @@
+{
+  "lemon": {
+    "DOI": "10.1509/jm.15.0420",
+    "title": [
+      "Understanding Customer Experience Throughout the Customer Journey"
+    ],
+    "author": [
+      {
+        "given": "Katherine N.",
+        "family": "Lemon",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Katherine N. Lemon is Accenture Professor in Marketing, Carroll School of Management, Boston College"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter C.",
+        "family": "Verhoef",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Peter C. Verhoef is Professor of Marketing, Faculty of Economics and Business, University of Groningen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Marketing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          11
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          11
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          11,
+          1
+        ]
+      ]
+    },
+    "volume": "80",
+    "issue": "6",
+    "page": "69-96",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1509/jm.15.0420",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1509/jm.15.0420",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1509/jm.15.0420",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1509/jm.15.0420"
+  },
+  "huang": {
+    "DOI": "10.1177/1094670517752459",
+    "title": [
+      "Artificial Intelligence in Service"
+    ],
+    "author": [
+      {
+        "given": "Ming-Hui",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Information Management, College of Management, National Taiwan University, Taipei, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roland T.",
+        "family": "Rust",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Maryland, College Park, MD, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Service Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          5
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          5
+        ]
+      ]
+    },
+    "volume": "21",
+    "issue": "2",
+    "page": "155-172",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1094670517752459",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/1094670517752459",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1094670517752459",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1177/1094670517752459"
+  },
+  "puntoni": {
+    "DOI": "10.1177/0022242920953847",
+    "title": [
+      "Consumers and Artificial Intelligence: An Experiential Perspective"
+    ],
+    "author": [
+      {
+        "given": "Stefano",
+        "family": "Puntoni",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rebecca Walker",
+        "family": "Reczek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Markus",
+        "family": "Giesler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simona",
+        "family": "Botti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Marketing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          16
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          16
+        ]
+      ]
+    },
+    "volume": "85",
+    "issue": "1",
+    "page": "131-151",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0022242920953847",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0022242920953847",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0022242920953847",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1177/0022242920953847"
+  },
+  "johnk": {
+    "DOI": "10.1007/s12599-020-00676-7",
+    "title": [
+      "Ready or Not, AI Comes— An Interview Study of Organizational AI Readiness Factors"
+    ],
+    "author": [
+      {
+        "given": "Jan",
+        "family": "Jöhnk",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Malte",
+        "family": "Weißert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katrin",
+        "family": "Wyrtki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Business &amp; Information Systems Engineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          2
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "volume": "63",
+    "issue": "1",
+    "page": "5-20",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12599-020-00676-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s12599-020-00676-7/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12599-020-00676-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1007/s12599-020-00676-7"
+  },
+  "hillebrand": {
+    "DOI": "10.5465/annals.2022.0072",
+    "title": [
+      "Managing with Artificial Intelligence: An Integrative Framework"
+    ],
+    "author": [
+      {
+        "given": "Luis",
+        "family": "Hillebrand",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Geneva"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebastian",
+        "family": "Raisch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Geneva"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Schad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vrije Universiteit Amsterdam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Academy of Management Annals"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "volume": "19",
+    "issue": "1",
+    "page": "343-375",
+    "article-number": null,
+    "link": null,
+    "URL": "https://doi.org/10.5465/annals.2022.0072"
+  },
+  "grewal": {
+    "DOI": "10.1007/s11747-024-01064-3",
+    "title": [
+      "How generative AI Is shaping the future of marketing"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7046-6063",
+        "authenticated-orcid": false,
+        "given": "Dhruv",
+        "family": "Grewal",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7242-3542",
+        "authenticated-orcid": false,
+        "given": "Cinthia B.",
+        "family": "Satornino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6205-3907",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Davenport",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9605-2993",
+        "authenticated-orcid": false,
+        "given": "Abhijit",
+        "family": "Guha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of the Academy of Marketing Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          14
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          14
+        ]
+      ]
+    },
+    "volume": "53",
+    "issue": "3",
+    "page": "702-722",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11747-024-01064-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11747-024-01064-3/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11747-024-01064-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1007/s11747-024-01064-3"
+  },
+  "cillo": {
+    "DOI": "10.1007/s11747-024-01044-7",
+    "title": [
+      "Generative AI in innovation and marketing processes: A roadmap of research opportunities"
+    ],
+    "author": [
+      {
+        "given": "Paola",
+        "family": "Cillo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gaia",
+        "family": "Rubera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of the Academy of Marketing Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "volume": "53",
+    "issue": "3",
+    "page": "684-701",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11747-024-01044-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11747-024-01044-7/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11747-024-01044-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1007/s11747-024-01044-7"
+  },
+  "blaurock": {
+    "DOI": "10.1177/10946705241238751",
+    "title": [
+      "Designing Collaborative Intelligence Systems for Employee-AI Service Co-Production"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1281-754X",
+        "authenticated-orcid": false,
+        "given": "Marah",
+        "family": "Blaurock",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Marketing &amp; Management, University of Hohenheim, Stuttgart, Germany"
+          },
+          {
+            "name": "Institute for Applied Artificial Intelligence, Stuttgart Media University, Stuttgart, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9409-8701",
+        "authenticated-orcid": false,
+        "given": "Marion",
+        "family": "Büttgen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Marketing &amp; Management, University of Hohenheim, Stuttgart, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0270-1348",
+        "authenticated-orcid": false,
+        "given": "Jeroen",
+        "family": "Schepers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Innovation, Technology Entrepreneurship &amp; Marketing (ITEM) group, Eindhoven Artificial Intelligence Systems Institute (EAISI). Eindhoven University of Technology, Eindhoven, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Service Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          18
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          18
+        ]
+      ]
+    },
+    "volume": "28",
+    "issue": "4",
+    "page": "544-562",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/10946705241238751",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/10946705241238751",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/10946705241238751",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1177/10946705241238751"
+  },
+  "ameen": {
+    "DOI": "10.1111/1467-8551.12829",
+    "title": [
+      "The Rise of Human–Machine Collaboration: Managers’ Perceptions of Leveraging Artificial Intelligence for Enhanced B2B Service Recovery"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1794-9103",
+        "authenticated-orcid": false,
+        "given": "Nisreen",
+        "family": "Ameen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Business and Management, Royal Holloway University of London  Egham Hill Egham TW20 0EQ UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Margherita",
+        "family": "Pagani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "SKEMA Centre for Artificial Intelligence SKEMA Business School – Université Côte d'Azur  5 Quai Marcel Dassault Suresnes 92150 France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9480-3346",
+        "authenticated-orcid": false,
+        "given": "Eleonora",
+        "family": "Pantano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Bristol Business School University of Bristol  Bristol BS8 1SD UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8440-9564",
+        "authenticated-orcid": false,
+        "given": "Jun‐Hwa",
+        "family": "Cheah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Norwich Business School University of East Anglia  Norwich NR4 7TJ UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1919-084X",
+        "authenticated-orcid": false,
+        "given": "Shlomo",
+        "family": "Tarba",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Birmingham Business School University of Birmingham  Edgbaston Park Road Birmingham B15 2TY UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2637-6201",
+        "authenticated-orcid": false,
+        "given": "Senmao",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Surrey Business School University of Surrey Guildford GU2 7XH UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "British Journal of Management"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          14
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          14
+        ]
+      ]
+    },
+    "volume": "36",
+    "issue": "1",
+    "page": "91-109",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1467-8551.12829",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1111/1467-8551.12829"
+  },
+  "ayinaddis": {
+    "DOI": "10.1016/j.jik.2025.100682",
+    "title": [
+      "Artificial intelligence adoption dynamics and knowledge in SMEs and large firms: A systematic review and bibliometric analysis"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6435-6810",
+        "authenticated-orcid": false,
+        "given": "Samuel Godadaw",
+        "family": "Ayinaddis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Innovation &amp; Knowledge"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "volume": "10",
+    "issue": "3",
+    "page": "100682",
+    "article-number": "100682",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2444569X25000320?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2444569X25000320?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "URL": "https://doi.org/10.1016/j.jik.2025.100682"
+  },
+  "bryn": {
+    "DOI": "10.1093/qje/qjae044",
+    "title": [
+      "Generative AI at Work"
+    ],
+    "author": [
+      {
+        "given": "Erik",
+        "family": "Brynjolfsson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Stanford University and National Bureau of Economic Research ,",
+            "place": [
+              "United States"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danielle",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology and National Bureau of Economic Research ,",
+            "place": [
+              "United States"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lindsey",
+        "family": "Raymond",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology ,",
+            "place": [
+              "United States"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "The Quarterly Journal of Economics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
+        ]
+      ]
+    },
+    "volume": "140",
+    "issue": "2",
+    "page": "889-942",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjae044/61701561/qjae044.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/qje/article-pdf/140/2/889/61701561/qjae044.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/qje/article-pdf/140/2/889/61701561/qjae044.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1093/qje/qjae044"
+  },
+  "sarstedt": {
+    "DOI": "10.1057/s41270-026-00521-y",
+    "title": [
+      "Machine marketing: rethinking the customer in the age of generative AI"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5424-4268",
+        "authenticated-orcid": false,
+        "given": "Marko",
+        "family": "Sarstedt",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3211-6871",
+        "authenticated-orcid": false,
+        "given": "Susanne J.",
+        "family": "Adler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Monika",
+        "family": "Imschloss",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Marketing Analytics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1057/s41270-026-00521-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1057/s41270-026-00521-y",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1057/s41270-026-00521-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1057/s41270-026-00521-y"
+  },
+  "chatterjee": {
+    "DOI": "10.1007/s10796-021-10181-1",
+    "title": [
+      "Assessing Organizational Users’ Intentions and Behavior to AI Integrated CRM Systems: a Meta-UTAUT Approach"
+    ],
+    "author": [
+      {
+        "given": "Sheshadri",
+        "family": "Chatterjee",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1105-8729",
+        "authenticated-orcid": false,
+        "given": "Nripendra P.",
+        "family": "Rana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sangeeta",
+        "family": "Khorana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick",
+        "family": "Mikalef",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anuj",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Information Systems Frontiers"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          13
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          13
+        ]
+      ]
+    },
+    "volume": "25",
+    "issue": "4",
+    "page": "1299-1313",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10796-021-10181-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10796-021-10181-1/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10796-021-10181-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1007/s10796-021-10181-1"
+  },
+  "perez": {
+    "DOI": "10.3390/info16060443",
+    "title": [
+      "Artificial Intelligence in Ecuadorian SMEs: Drivers and Obstacles to Adoption"
+    ],
+    "author": [
+      {
+        "given": "Reyner",
+        "family": "Pérez-Campdesuñer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Law, Administrative and Social Sciences, Universidad UTE, Quito 170527, Ecuador"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8259-2131",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Sánchez-Rodríguez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Engineering Sciences and Industries, Universidad UTE, Quito 170527, Ecuador"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7159-3163",
+        "authenticated-orcid": false,
+        "given": "Gelmar",
+        "family": "García-Vidal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Law, Administrative and Social Sciences, Universidad UTE, Quito 170527, Ecuador"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rodobaldo",
+        "family": "Martínez-Vivar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Law, Administrative and Social Sciences, Universidad UTE, Quito 170527, Ecuador"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2958-2318",
+        "authenticated-orcid": false,
+        "given": "Margarita",
+        "family": "De Miguel-Guzmán",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Administration, Instituto Superior Tecnológico Atlantic, Santo Domingo 230201, Ecuador"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Information"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ]
+    },
+    "volume": "16",
+    "issue": "6",
+    "page": "443",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2078-2489/16/6/443/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.3390/info16060443"
+  },
+  "eysenbach": {
+    "DOI": "10.2196/jmir.6.3.e34",
+    "title": [
+      "Improving the Quality of Web Surveys: The Checklist for Reporting Results of Internet E-Surveys (CHERRIES)"
+    ],
+    "author": [
+      {
+        "given": "Gunther",
+        "family": "Eysenbach",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Medical Internet Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          9,
+          29
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2004,
+          9,
+          29
+        ]
+      ]
+    },
+    "volume": "6",
+    "issue": "3",
+    "page": "e34",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "https://www.jmir.org/2004/3/e34",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.2196/jmir.6.3.e34"
+  },
+  "lakens": {
+    "DOI": "10.1525/collabra.33267",
+    "title": [
+      "Sample Size Justification"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0247-239X",
+        "authenticated-orcid": false,
+        "given": "Daniël",
+        "family": "Lakens",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Human-Technology Interaction 1 ,"
+          },
+          {
+            "name": "Eindhoven University of Technology, Eindhoven, Netherlands 1 ,"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Collabra: Psychology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ]
+    },
+    "volume": "8",
+    "issue": "1",
+    "page": null,
+    "article-number": "33267",
+    "link": [
+      {
+        "URL": "https://online.ucpress.edu/collabra/article-pdf/doi/10.1525/collabra.33267/832388/collabra_2022_8_1_33267.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://online.ucpress.edu/collabra/article-pdf/doi/10.1525/collabra.33267/832388/collabra_2022_8_1_33267.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1525/collabra.33267"
+  },
+  "pods": {
+    "DOI": "10.1037/0021-9010.88.5.879",
+    "title": [
+      "Common method biases in behavioral research: A critical review of the literature and recommended remedies."
+    ],
+    "author": [
+      {
+        "given": "Philip M.",
+        "family": "Podsakoff",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott B.",
+        "family": "MacKenzie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2622-7831",
+        "authenticated-orcid": false,
+        "given": "Jeong-Yeon",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nathan P.",
+        "family": "Podsakoff",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Applied Psychology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "volume": "88",
+    "issue": "5",
+    "page": "879-903",
+    "article-number": null,
+    "link": [
+      {
+        "URL": "http://psycnet.apa.org/journals/apl/88/5/879.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1037/0021-9010.88.5.879"
+  },
+  "strobe": {
+    "DOI": "10.1371/journal.pmed.0040296",
+    "title": [
+      "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies"
+    ],
+    "author": [
+      {
+        "given": "Erik",
+        "family": "von Elm",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Douglas G",
+        "family": "Altman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthias",
+        "family": "Egger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stuart J",
+        "family": "Pocock",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter C",
+        "family": "Gøtzsche",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jan P",
+        "family": "Vandenbroucke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "for the STROBE Initiative",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "PLoS Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          16
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          16
+        ]
+      ]
+    },
+    "volume": "4",
+    "issue": "10",
+    "page": "e296",
+    "article-number": null,
+    "link": null,
+    "URL": "https://doi.org/10.1371/journal.pmed.0040296"
+  },
+  "boateng": {
+    "DOI": "10.3389/fpubh.2018.00149",
+    "title": [
+      "Best Practices for Developing and Validating Scales for Health, Social, and Behavioral Research: A Primer"
+    ],
+    "author": [
+      {
+        "given": "Godfred O.",
+        "family": "Boateng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Torsten B.",
+        "family": "Neilands",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edward A.",
+        "family": "Frongillo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hugo R.",
+        "family": "Melgar-Quiñonez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sera L.",
+        "family": "Young",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Frontiers in Public Health"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "volume": "6",
+    "issue": null,
+    "page": null,
+    "article-number": "149",
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/article/10.3389/fpubh.2018.00149/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.3389/fpubh.2018.00149"
+  },
+  "agentmarketing": {
+    "DOI": "10.1177/00222429261481116",
+    "title": [
+      "Agentic AI and the New Architecture of Marketing Relationships"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0501-9937",
+        "authenticated-orcid": false,
+        "given": "Adithya",
+        "family": "Pattabhiramaiah",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Georgia Tech"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Mende",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Arizona State University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8168-3875",
+        "authenticated-orcid": false,
+        "given": "Huachao",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Texas A&M University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6612-1871",
+        "authenticated-orcid": false,
+        "given": "Shrihari",
+        "family": "Sridhar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Texas A&M University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Marketing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          21
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "URL": "https://doi.org/10.1177/00222429261481116"
+  },
+  "contentanalysis": {
+    "DOI": "10.1177/1049732305276687",
+    "title": [
+      "Three Approaches to Qualitative Content Analysis"
+    ],
+    "author": [
+      {
+        "given": "Hsiu-Fang",
+        "family": "Hsieh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Fooyin University, Kaohsiung Hsien, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sarah E.",
+        "family": "Shannon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Qualitative Health Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          11
+        ]
+      ]
+    },
+    "volume": "15",
+    "issue": "9",
+    "page": "1277-1288",
+    "URL": "https://doi.org/10.1177/1049732305276687"
+  }
+}

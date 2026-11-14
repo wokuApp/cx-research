@@ -1,0 +1,23 @@
+{
+  "name": "woku-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "survey-contract",
+    "survey-api",
+    "survey-web"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "test": "npm test -w survey-contract && npm test -w survey-api && npm test -w survey-web",
+    "test:integration": "npm run test:integration -w survey-api",
+    "build": "npm run build -w survey-api && npm run build -w survey-web",
+    "infra:synth": "npm run synth -w survey-api"
+  },
+  "overrides": {
+    "esbuild": "0.28.2"
+  }
+}

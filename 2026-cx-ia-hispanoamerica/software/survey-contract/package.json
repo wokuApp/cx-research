@@ -1,0 +1,19 @@
+{
+  "name": "@woku-research/contracts",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/survey.ts",
+    "./api": "./src/api.ts"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "4.1.12"
+  }
+}
