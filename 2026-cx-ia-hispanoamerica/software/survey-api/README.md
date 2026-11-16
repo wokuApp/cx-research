@@ -1,6 +1,6 @@
 # Backend de woku research
 
-Estado al 14 de noviembre de 2026: prueba inicial concluida y datos de ensayo eliminados; piloto pausado y capacidad temporal de reinicio deshabilitada. Ver [PRODUCTION.md](PRODUCTION.md) antes de ejecutar el procedimiento general o el reinicio de este documento.
+Estado al 16 de noviembre de 2026: piloto abierto para difusión, con datos de ensayo previamente eliminados y capacidad temporal de reinicio deshabilitada. Ver [PRODUCTION.md](PRODUCTION.md) antes de ejecutar el procedimiento general o el reinicio de este documento.
 
 Proyecto independiente para el estudio de IA en experiencia del cliente. Decisiones, tabla de servicios, modelo de datos y límites en [ARCHITECTURE.md](ARCHITECTURE.md). No reutiliza ninguna API, VPC ni base productiva de woku.
 

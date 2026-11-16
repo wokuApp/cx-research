@@ -20,7 +20,7 @@ Encuesta en español para empresas de Hispanoamérica. Reportes previstos para A
 
 El instrumento incluye un paso sobre agentes de IA con etapa de implementación y texto libre condicionado; separa intención de implementación y no certifica autonomía técnica. El piloto agrega dos preguntas y pausa la recepción al alcanzar su límite de 50.
 
-Las cuatro respuestas de ensayo técnico fueron eliminadas. Al corte documental, los contadores están en cero, el piloto está pausado y la función temporal de reinicio está deshabilitada. Difusión prevista: 16 de noviembre de 2026; apertura automática no programada. [Resumen operativo](software/survey-api/PRODUCTION.md).
+Las cuatro respuestas de ensayo técnico fueron eliminadas antes del campo. El piloto se abrió el 16 de noviembre de 2026 a las 08:53 (America/Santiago), con ambos contadores en cero. La función temporal de reinicio sigue deshabilitada. La recepción se pausará automáticamente al alcanzar el límite de 50; se conservan las dos preguntas de evaluación. [Resumen operativo](software/survey-api/PRODUCTION.md).
 
 ## Estructura
 

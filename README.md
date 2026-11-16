@@ -4,7 +4,7 @@ Repositorio de investigaciones de woku sobre experiencia del cliente, tecnologí
 
 | Estudio | Autores | Estado |
 | --- | --- | --- |
-| [2026 · IA en experiencia del cliente en Hispanoamérica](2026-cx-ia-hispanoamerica/README.md) | Diego Orrego y Paula Riquelme | Manuscrito v2 e instrumento 0.6, previos a datos y análisis |
+| [2026 · IA en experiencia del cliente en Hispanoamérica](2026-cx-ia-hispanoamerica/README.md) | Diego Orrego y Paula Riquelme | Piloto abierto el 16-11-2026; manuscrito v2 e instrumento 0.6 |
 
 ## Organización
 
