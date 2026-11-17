@@ -38,3 +38,7 @@ El audit completo conserva una vulnerabilidad moderada en **minimatch 10.2.6 emp
 ## Pendiente de la etapa de despliegue
 
 Certificado/DNS, conectividad privada, TLS RDS y entrega SES fueron comprobados en la prueba productiva autorizada; Diego y Paula confirmaron verificación. Continúan pendientes la suscripción operativa a alarmas, la revisión de supresión/bounces y el ensayo de restauración antes del campo formal. El estado y las modificaciones de AWS se documentan en PRODUCTION.md.
+
+## Inspección restringida de respuestas
+
+`status` añade totales agregados para distinguir envíos, elegibilidad y verificación. `response-audit` está limitado a la función Admin por IAM, con Zod estricto, máximo 20 registros y transacción PostgreSQL READ ONLY. Sólo proyecta las preguntas de elegibilidad y conserva el correo cifrado; no devuelve texto libre ni empresa. No amplía permisos IAM, no accede al secreto de privacidad y no expone una ruta pública. Los resultados de inspección son confidenciales y no forman parte del repositorio.

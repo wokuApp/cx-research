@@ -6,12 +6,18 @@ import {provisionRoles} from './roles';
 import {changeStudyState,changeInstrumentVersion} from './admin-actions';
 import {DomainError} from './errors';
 import {resetProductionTrial} from './reset-trial';
+import {readResponseAudit,readResponseCounts} from './response-audit';
 const migrateCommand=z.strictObject({action:z.literal('migrate')});
 const statusCommand=z.strictObject({action:z.literal('status')});
 // No API Gateway route or function URL. The operator needs explicit IAM InvokeFunction permission.
 export const handler=async(input:unknown,context:Context):Promise<unknown>=>{
   const pool=await databasePool(required('DB_SECRET_ARN'));
   try {
+    if(input&&typeof input==='object'&&'action' in input&&input.action==='response-audit'){
+      const result=await readResponseAudit(pool,input);
+      console.info(JSON.stringify({event:'response_audit',requestId:context.awsRequestId,count:result.responses.length}));
+      return result;
+    }
     if(input&&typeof input==='object'&&'action' in input&&input.action==='set-instrument-version')return await changeInstrumentVersion(pool,input,context.awsRequestId);
     if(input&&typeof input==='object'&&'action' in input&&input.action==='reset-production-trial') {
       if(process.env.TRIAL_RESET_ENABLED!=='true')throw new DomainError('reset_disabled',403);
@@ -25,8 +31,8 @@ export const handler=async(input:unknown,context:Context):Promise<unknown>=>{
       return {migrated:true};
     }
     if(statusCommand.safeParse(input).success) {
-      const [state,mail]=await Promise.all([pool.query('SELECT phase,manual_paused,completed,pilot_completed,instrument_version FROM research.study_state'),pool.query('SELECT state,count(*)::int AS count FROM research.mail_outbox GROUP BY state')]);
-      return {study:state.rows,mail:mail.rows};
+      const [state,mail,responseCounts]=await Promise.all([pool.query('SELECT phase,manual_paused,completed,pilot_completed,instrument_version FROM research.study_state'),pool.query('SELECT state,count(*)::int AS count FROM research.mail_outbox GROUP BY state'),readResponseCounts(pool)]);
+      return {study:state.rows,mail:mail.rows,responseCounts};
     }
     return await changeStudyState(pool,input,context.awsRequestId);
   }catch(error){

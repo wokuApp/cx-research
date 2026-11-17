@@ -23,3 +23,9 @@ La nueva pregunta y el visor PDF se comprobaron en navegador, incluida vista mó
 Verificación previa a este archivo: 26 pruebas de contrato, 27 unitarias/infraestructura API, siete unitarias frontend y 24 escenarios PostgreSQL. Los resultados son comprobaciones del software, no resultados científicos. El manuscrito sigue siendo un protocolo previo a datos y análisis.
 
 Las instrucciones de administración en [README.md](README.md) requieren una cuenta propia y autorización operativa. Clonar o ejecutar pruebas no abre el piloto ni despliega recursos. La restauración de respaldos y la suscripción operativa a alarmas no se consideran verificadas por este repositorio.
+
+## Conteo e inspección administrativa, 16 de noviembre de 2026
+
+El resumen administrativo añade total recibido, elegibles, no elegibles y estado de verificación. Un mensaje enviado no demuestra verificación; el contador del piloto sólo comprende elegibles. Se incorpora una consulta IAM acotada para inspeccionar elegibilidad y contacto cifrado, sin ruta HTTP, texto libre o permisos nuevos. Las consultas no alteran respuestas ni contadores. No se publica información de participantes.
+
+Se verificó con TDD y PostgreSQL aislado que una respuesta no elegible puede estar guardada y verificada sin aumentar el contador del piloto, y que la inspección no revela el correo en claro ni campos de texto libre. Pasaron 61 pruebas unitarias/infraestructura y los 24 escenarios PostgreSQL; el build fue correcto. El diff de despliegue sólo cambió los bundles compartidos de Lambda; no cambió permisos, infraestructura, esquema ni el instrumento. Capacidad de reinicio deshabilitada y recepción abierta conservadas.

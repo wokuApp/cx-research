@@ -107,3 +107,9 @@ RDS tiene backups automáticos de siete días, borrado protegido y snapshot al r
 No rotar el secreto de privacidad sustituyéndolo sin una migración que recifre datos y mantenga índices HMAC/versiones de clave. Las credenciales SQL se actualizan mediante secretos y una invocación `migrate` para sincronizar roles; después reciclar los entornos Lambda. No se afirma rotación automática de esas credenciales.
 
 Los datos de encuesta no tienen borrado automático, conforme a conservar también respuestas no verificadas. Definir retención institucional y eliminación de backups/secretos al cerrar el estudio. La vista `analysis_responses` omite el email, pero `Q01` puede identificar una empresa; revisar anonimización antes de exportar o publicar.
+
+## Consulta administrativa de respuestas
+
+La acción IAM `status` incluye `responseCounts`: recibidas, elegibles, no elegibles, verificadas y no verificadas. Los contadores `completed` y `pilot_completed` cuentan únicamente elegibles; `mail.sent` cuenta mensajes enviados y no acredita verificación ni equivale al total de respuestas.
+
+Para una inspección autorizada: `{"action":"response-audit","limit":1}`. La consulta acepta entre 1 y 20 registros recientes, se ejecuta en una transacción de sólo lectura y no tiene ruta HTTP. Devuelve conteos, fechas, estado de elegibilidad/verificación, la pregunta que activa la exclusión y únicamente Q02/Q03/Q06. El correo permanece cifrado; no se añaden permisos para que Admin lea la clave de privacidad. El registro operativo sólo informa la acción y cantidad consultada, nunca contenido o datos de contacto. La identificación de un correo requiere acceso separado y autorizado al material de privacidad. No guardar resultados de esta inspección en Git.
